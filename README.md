@@ -71,6 +71,11 @@ RF_pso: Acc=0.9675, Prec=0.9690, Rec=0.9662, F1=0.9669
 XGB_pso: Acc=0.9575, Prec=0.9580, Rec=0.9569, F1=0.9564
 ```
 
+![Model Performance Metrics on fou Dataset](https://github.com/user-attachments/assets/b22a66f1-fdb4-491f-97a4-9c9531c25ca7)
+
+![Model Performance Metrics on kar Dataset ](https://github.com/user-attachments/assets/e83ab982-50cf-4009-b72e-b417cf384ae6)
+
+
 
 
 
