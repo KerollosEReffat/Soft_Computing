@@ -10,6 +10,9 @@ requirements :
 install it by this command (pip required) :
  - pip install numpy pandas scikit-learn deap pyswarms
 
+All Results :
+
+```
 [LOADER] Loading dataset: fou . . .
 [fou] Baseline evaluation with all features (76)
 RF: Acc=0.8375, Prec=0.8346, Rec=0.8306, F1=0.8318
@@ -66,7 +69,7 @@ RF_ga: Acc=0.9650, Prec=0.9670, Rec=0.9642, F1=0.9644
 XGB_ga: Acc=0.9600, Prec=0.9594, Rec=0.9581, F1=0.9580
 RF_pso: Acc=0.9675, Prec=0.9690, Rec=0.9662, F1=0.9669
 XGB_pso: Acc=0.9575, Prec=0.9580, Rec=0.9569, F1=0.9564
-
+```
 
 
 
