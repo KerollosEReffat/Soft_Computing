@@ -1,5 +1,14 @@
 # Tiitle : RF, XGB with GA, PSO for mfeat-(fac, fou)
 
+# GA – Genetic Algorithm
+# PSO – Particle Swarm Optimization
+# RF – Random Forest
+# XGB – XGBoost - Extreme Gradient Boosting
+# mfeat-fac
+# mfeat-fou
+
+---
+
 Requirements :
  - numpy 
  - pandas  
