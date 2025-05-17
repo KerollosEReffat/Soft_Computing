@@ -15,6 +15,7 @@ Requirements :
  - scikit-learn 
  - deap 
  - pyswarms
+   
 install it by this command (pip required) :
  - pip install numpy pandas scikit-learn deap pyswarms
 
