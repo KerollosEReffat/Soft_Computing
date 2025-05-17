@@ -1,4 +1,3 @@
-# Soft_Computing
 # Tiitle : RF, XGB with GA, PSO for mfeat-(fac, fou)
 
 Requirements :
