@@ -1,7 +1,14 @@
 # Soft_Computing
 RF, XGB with GA, PSO for mfeat-(fac, fou)
 
-
+requirements :
+ - numpy 
+ - pandas  
+ - scikit-learn 
+ - deap 
+ - pyswarms
+install it by this command (pip required) :
+ - pip install numpy pandas scikit-learn deap pyswarms
 
 [LOADER] Loading dataset: fou . . .
 [fou] Baseline evaluation with all features (76)
