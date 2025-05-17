@@ -1,11 +1,11 @@
-# Tiitle : RF, XGB with GA, PSO for mfeat-(fac, fou)
+# Tiitle : RF, XGB with GA, PSO for Fac, Kar
 
-# GA – Genetic Algorithm
-# PSO – Particle Swarm Optimization
-# RF – Random Forest
-# XGB – XGBoost - Extreme Gradient Boosting
-# mfeat-fac
-# mfeat-fou
+GA – (Genetic Algorithm)
+PSO – (Particle Swarm Optimization)
+RF – (Random Forest)
+XGB – (XGBoost - Extreme Gradient Boosting)
+Fac - (mfeat-fac)
+Kar - (mfeat-kar)
 
 ---
 
