@@ -1,7 +1,7 @@
 # Soft_Computing
-RF, XGB with GA, PSO for mfeat-(fac, fou)
+Tiitle : RF, XGB with GA, PSO for mfeat-(fac, fou)
 
-requirements :
+Requirements :
  - numpy 
  - pandas  
  - scikit-learn 
