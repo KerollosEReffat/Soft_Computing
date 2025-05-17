@@ -1,5 +1,5 @@
 # Soft_Computing
-Tiitle : RF, XGB with GA, PSO for mfeat-(fac, fou)
+# Tiitle : RF, XGB with GA, PSO for mfeat-(fac, fou)
 
 Requirements :
  - numpy 
@@ -10,7 +10,7 @@ Requirements :
 install it by this command (pip required) :
  - pip install numpy pandas scikit-learn deap pyswarms
 
-
+---
 
 All Pseudo Code :-
 
