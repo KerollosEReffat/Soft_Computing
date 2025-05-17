@@ -8,6 +8,7 @@ from joblib import parallel_backend
 from deap import base, creator, tools, algorithms
 import pyswarms as ps
 import random
+import matplotlib.pyplot as plt
 
 # ===== CONFIGURATION =====
 DATASETS = ['fou', 'kar']  # 'fou' أو 'kar'
