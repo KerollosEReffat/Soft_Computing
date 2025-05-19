@@ -11,7 +11,7 @@ import random
 import matplotlib.pyplot as plt
 
 # ===== CONFIGURATION =====
-DATASETS = ['fou', 'kar']  # 'fou' أو 'kar'
+DATASETS = ['fou', 'kar']  
 USE_RF = True
 USE_XGB = True
 USE_GA = True
@@ -160,8 +160,8 @@ def evaluate_with_feature_selection(name, X_tr, X_te, y_tr, y_te):
     print("============================================================")
     
     # GA feature selection
-    ga_model = train_ga(X_tr, y_tr, X_te, y_te)  # ترجع نموذج مدرب
-    selected_ga = ga_model.selected_features    # قائمة الميزات المختارة
+    ga_model = train_ga(X_tr, y_tr, X_te, y_te)  
+    selected_ga = ga_model.selected_features    
     print(f"\n[{name}] GA evaluation with Selected {len(selected_ga)} features")
     X_tr_ga = X_tr[:, selected_ga]
     X_te_ga = X_te[:, selected_ga]
@@ -208,13 +208,12 @@ def plot_results_bar_chart(all_results):
         methods = list(models.keys())
         metrics = ['accuracy', 'precision', 'recall', 'f1']
 
-        # تجهيز بيانات القياسات لكل مقياس ولكل طريقة
         data = []
         for metric in metrics:
             data.append([models[m][metric] for m in methods])
 
-        x = np.arange(len(methods))  # مواقع الأعمدة على المحور X
-        width = 0.2  # عرض كل عمود
+        x = np.arange(len(methods)) 
+        width = 0.2  
 
         fig, ax = plt.subplots(figsize=(10, 6))
         for i, metric in enumerate(metrics):
@@ -225,7 +224,7 @@ def plot_results_bar_chart(all_results):
         ax.set_title(f'Model Performance Metrics on {dataset}')
         ax.set_xticks(x + width * (len(metrics) - 1) / 2)
         ax.set_xticklabels(methods)
-        ax.set_ylim([0, 1])  # القيم بين 0 و 1
+        ax.set_ylim([0, 1]) 
         ax.legend()
         ax.grid(axis='y', linestyle='--', alpha=0.7)
 
